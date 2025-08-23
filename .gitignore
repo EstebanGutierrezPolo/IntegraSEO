@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency Directories
+node_modules/
+jspm_packages/
+
+# Production & Build Files
+build/
+dist/
+out/
+es5/
+es6/
+
+# Misc
+# .env
+.npm/
+.eslintcache
+.vscode/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
