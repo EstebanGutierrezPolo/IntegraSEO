@@ -3,6 +3,8 @@ import GetAllUsersController from "../../controllers/users/getAllUsersController
 import GetOneUserController from "../../controllers/users/getOneUserController.js";
 import UpdateOneUserController from "../../controllers/users/updateOneUserController.js";
 import CreateOneUserController from "../../controllers/users/createOneUserController.js";
+import DeleteOneUserController from "../../controllers/users/deleteOneUserController.js";
+
 
 
 const router = Router();
@@ -26,5 +28,6 @@ router.put("/:id", UpdateOneUserController.updateOneUser);
 /***************/
 /****DELETE*****/
 /***************/
+router.delete("/:id", DeleteOneUserController.deleteOneUser);
 
 export default router;
