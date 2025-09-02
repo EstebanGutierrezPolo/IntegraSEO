@@ -1,4 +1,4 @@
-import getAllUserModels from "../../models/getAllUsersModels.js"
+import getAllUserModels from "../../models/users/getAllUsersModels.js"
 
 const GetAllUsersController = {
     async getAllUser(req, res) {

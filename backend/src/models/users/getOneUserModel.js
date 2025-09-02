@@ -1,4 +1,4 @@
-import pool from '../middleware/connection.js'
+import pool from '../../middleware/connection.js'
 
 const getOneUserModels = {
     async getUser(id_user) {
