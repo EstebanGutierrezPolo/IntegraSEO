@@ -26,7 +26,7 @@ CREATE TABLE users (
     user_password VARCHAR(255) NOT NULL,
     hire_date DATE NOT NULL,
     last_login TIMESTAMP,
-    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
 
     id_document_type INT NOT NULL,
     id_role INT NOT NULL,
